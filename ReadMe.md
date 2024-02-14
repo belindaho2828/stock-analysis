@@ -26,3 +26,7 @@ VBA code for this analysis uses a For Loop that runs through each row and stores
 	Stores the opening price in column G for the first row of a new ticker (i.e., when the statement If current row (i) does not equal the previous row (i -1) ticker evaluates as true). For each row after that the Ticker is the same, adds the current row's stock volume to the previous stock volume and replace the stock volume variable for the next loop.
 	At each last row of a ticker (i.e., when the statement If current row (i) does not equal the next row (i + 1) ticker evaluates as true), total stock volume will print in column L for that ticker
 	## Max: Before the loop, HighestVolume (i.e., max) are set to 0. At each last row of a ticker, the StockVolume is evaluated against HighestVolume to determine if it is higher . If it is, it replaces that variable. At the end of the data set, it prints the HighestVolume (Max) in Cell (4, Q) along with the Ticker in Cell (4, P).
+
+#Acknowledgements
+	I googled how to loop through worksheets and got the idea from forums such as Stack Overflow
+	my original code was cumbersome and took a long time to run so I received some tutoring assistance from outside sources on how to clean it up. 

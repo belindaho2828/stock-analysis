@@ -29,4 +29,7 @@ VBA code for this analysis uses a For Loop that runs through each row and stores
 
 #Acknowledgements
 	I googled how to loop through worksheets and got the idea from forums such as Stack Overflow
-	my original code was cumbersome and took a long time to run so I received some tutoring assistance from outside sources on how to clean it up. 
+	I received some tutoring assistance from outside sources for: 
+		my original code was cumbersome and took a long time to run so received some guidance on how to clean it up. 
+		how to grab first row data instead of just las row data like it was taught in class
+		code written is original but with some tutoring guidance
